@@ -8,3 +8,6 @@
 
 actor = Actor.new({first_name: "Benedict", last_name: "Cumberbatch", known_for: "Sherlock"})
 actor.save
+
+movie = Movie.new(title: "Jaws", year: 1975, plot: "A giant rogue great white shark attacks multiple people in a new england resort town")
+movie.save
