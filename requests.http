@@ -1,7 +1,57 @@
-GET http://localhost:3000/actor_path/6
+### actor index
+GET http://localhost:3000/actor_path 
+
+### actor create
+POST http://localhost:3000/actor_path 
+Content-Type: application/json
+
+{
+  "first_name": "Jim",
+  "last_name": "Carrey",
+  "known_for": "Dumb and Dumber"
+}
+
+### actor show
+GET http://localhost:3000/actor_path/5
+
+### actor update
+PATCH http://localhost:3000/actor_path/8
+Content-Type: application/json
+
+{
+  "first_name": "Mark",
+  "last_name": "Hammill",
+  "known_for": "Star Wars"
+}
+
+### actor destroy
+DELETE http://localhost:3000/actor_path/9
 
 ### movies index
 GET http://localhost:3000/movie_path
 
-### movie show by id:
+### movies create
+POST http://localhost:3000/movie_path 
+Content-Type: application/json
+
+{
+  "title": "Duel",
+  "year": 1971,
+  "plot": "A driver is terroized by an unknown truck driver."
+}
+
+### movie show
 GET http://localhost:3000/movie_path/1
+
+### movie update
+PATCH http://localhost:3000/movie_path/5
+Content-Type: application/json
+
+{
+  "title": "Lost Highway",
+  "year": 1997,
+  "plot": "It's pretty wild."
+}
+
+### movie destroy
+DELETE http://localhost:3000/movie_path/7
