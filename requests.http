@@ -8,7 +8,9 @@ Content-Type: application/json
 {
   "first_name": "Jim",
   "last_name": "Carrey",
-  "known_for": "Dumb and Dumber"
+  "known_for": "Dumb and Dumber",
+  "gender": "male",
+  "age": 60
 }
 
 ### actor show
@@ -21,7 +23,9 @@ Content-Type: application/json
 {
   "first_name": "Mark",
   "last_name": "Hammill",
-  "known_for": "Star Wars"
+  "known_for": "Star Wars",
+  "gender": "male",
+  "age": 70
 }
 
 ### actor destroy
@@ -37,7 +41,9 @@ Content-Type: application/json
 {
   "title": "Duel",
   "year": 1971,
-  "plot": "A driver is terroized by an unknown truck driver."
+  "plot": "A driver is terroized by an unknown truck driver.",
+  "director": "test",
+  "english": true
 }
 
 ### movie show
