@@ -2,22 +2,22 @@
 GET http://localhost:3000/actor_path 
 
 ### actor create
-POST http://localhost:3000/actor_path 
+POST http://localhost:3000/actor_path.json
 Content-Type: application/json
 
 {
-  "first_name": "Jim",
-  "last_name": "Carrey",
-  "known_for": "Dumb and Dumber",
+  "first_name": "",
+  "last_name": "test",
+  "known_for": "test",
   "gender": "male",
-  "age": 60
+  "age": 10
 }
 
 ### actor show
 GET http://localhost:3000/actor_path/5
 
 ### actor update
-PATCH http://localhost:3000/actor_path/8
+PATCH http://localhost:3000/actor_path/12
 Content-Type: application/json
 
 {
@@ -25,7 +25,7 @@ Content-Type: application/json
   "last_name": "Hammill",
   "known_for": "Star Wars",
   "gender": "male",
-  "age": 70
+  "age": 13
 }
 
 ### actor destroy
@@ -39,24 +39,26 @@ POST http://localhost:3000/movie_path
 Content-Type: application/json
 
 {
-  "title": "Duel",
-  "year": 1971,
-  "plot": "A driver is terroized by an unknown truck driver.",
+  "title": "test",
+  "year": 1900,
+  "plot": "testertestertester",
   "director": "test",
-  "english": true
+  "english": "false"
 }
 
 ### movie show
 GET http://localhost:3000/movie_path/1
 
 ### movie update
-PATCH http://localhost:3000/movie_path/5
+PATCH http://localhost:3000/movie_path/10
 Content-Type: application/json
 
 {
-  "title": "Lost Highway",
-  "year": 1997,
-  "plot": "It's pretty wild."
+  "title": "Blue Velvet",
+  "year": 1994,
+  "plot": "it's really wild",
+  "director": "David Lynch",
+  "english": true
 }
 
 ### movie destroy

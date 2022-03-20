@@ -13,8 +13,14 @@ class ActorController < ApplicationController
       gender: params[:gender],
       age: params[:age]
     )
-    actor.save
-    render json: actor.as_json
+    # actor.save
+    # render json: actor.as_json
+
+    if actor.save
+      render json: actor.as_json
+    else
+      render json: {errors: actor.errors.full_messages}, status: :unprocessable_entity
+    end
   end
 
   def show
@@ -29,8 +35,14 @@ class ActorController < ApplicationController
     actor.known_for = params[:known_for] || actor.known_for
     actor.gender = params[:gender] || actor.gender
     actor.age = params[:age] || actor.age
-    actor.save
-    render json: actor.as_json
+    # actor.save
+    # render json: actor.as_json
+
+    if actor.save
+      render json: actor.as_json
+    else
+      render json: {errors: actor.errors.full_messages}, status: :unprocessable_entity
+    end
   end
 
   def destroy
