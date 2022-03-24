@@ -6,30 +6,27 @@ POST http://localhost:3000/actor_path.json
 Content-Type: application/json
 
 {
-  "first_name": "",
+  "first_name": "test",
   "last_name": "test",
   "known_for": "test",
-  "gender": "male",
-  "age": 10
+  "gender": "man",
+  "age": 84,
+  "movie_id": 14
 }
 
 ### actor show
 GET http://localhost:3000/actor_path/5
 
 ### actor update
-PATCH http://localhost:3000/actor_path/12
+PATCH http://localhost:3000/actor_path/8
 Content-Type: application/json
 
 {
-  "first_name": "Mark",
-  "last_name": "Hammill",
-  "known_for": "Star Wars",
-  "gender": "male",
-  "age": 13
+  "gender": "man"
 }
 
 ### actor destroy
-DELETE http://localhost:3000/actor_path/9
+DELETE http://localhost:3000/actor_path/6
 
 ### movies index
 GET http://localhost:3000/movie_path
@@ -39,11 +36,11 @@ POST http://localhost:3000/movie_path
 Content-Type: application/json
 
 {
-  "title": "test",
-  "year": 1900,
-  "plot": "testertestertester",
-  "director": "test",
-  "english": "false"
+  "title": "Fitzcarraldo",
+  "year": 1982,
+  "plot": "Wild man tries to move a boat",
+  "director": "Werner Herzog",
+  "english": false
 }
 
 ### movie show
@@ -62,4 +59,4 @@ Content-Type: application/json
 }
 
 ### movie destroy
-DELETE http://localhost:3000/movie_path/7
+DELETE http://localhost:3000/movie_path/5
