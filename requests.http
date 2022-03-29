@@ -1,10 +1,10 @@
 ### actor index
 GET http://localhost:3000/actor_path.json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2NDg1Mjk1OTB9.nxYeIjn91xW7v4fMBBM_VnF96B1qhWlzn6nomBhFS1I
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDg2MTk2NDl9.kJBrre-OxTDdMvUcQrfh65dV3rGwmDwBtIAf3t8uYqI
 
 ### actor create
 POST http://localhost:3000/actor_path.json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDg1Mjc1Nzh9.ZMzn55LvVuRUDaxlg2q9_8GMAqPSuYlkXk_f9guVkEs
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDg2MTk2NDl9.kJBrre-OxTDdMvUcQrfh65dV3rGwmDwBtIAf3t8uYqI
 Content-Type: application/json
 
 {
@@ -18,11 +18,11 @@ Content-Type: application/json
 
 ### actor show
 GET http://localhost:3000/actor_path/5
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2NDg1Mjk1OTB9.nxYeIjn91xW7v4fMBBM_VnF96B1qhWlzn6nomBhFS1I
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDg2MTk2NDl9.kJBrre-OxTDdMvUcQrfh65dV3rGwmDwBtIAf3t8uYqI
 
 ### actor update
 PATCH http://localhost:3000/actor_path/8
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDg1Mjc1Nzh9.ZMzn55LvVuRUDaxlg2q9_8GMAqPSuYlkXk_f9guVkEs
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDg2MTk2NDl9.kJBrre-OxTDdMvUcQrfh65dV3rGwmDwBtIAf3t8uYqI
 Content-Type: application/json
 
 {
@@ -31,18 +31,18 @@ Content-Type: application/json
 
 ### actor destroy
 DELETE http://localhost:3000/actor_path/20
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDg1Mjc1Nzh9.ZMzn55LvVuRUDaxlg2q9_8GMAqPSuYlkXk_f9guVkEs
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDg2MTk2NDl9.kJBrre-OxTDdMvUcQrfh65dV3rGwmDwBtIAf3t8uYqI
 
 
 
 
 ### movies index
 GET http://localhost:3000/movie_path.json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2NDg1Mjk1OTB9.nxYeIjn91xW7v4fMBBM_VnF96B1qhWlzn6nomBhFS1I
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDg2MTk2NDl9.kJBrre-OxTDdMvUcQrfh65dV3rGwmDwBtIAf3t8uYqI
 
 ### movies create
 POST http://localhost:3000/movie_path
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDg1Mjc1Nzh9.ZMzn55LvVuRUDaxlg2q9_8GMAqPSuYlkXk_f9guVkEs 
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDg2MTk2NDl9.kJBrre-OxTDdMvUcQrfh65dV3rGwmDwBtIAf3t8uYqI
 Content-Type: application/json
 
 {
@@ -55,11 +55,11 @@ Content-Type: application/json
 
 ### movie show
 GET http://localhost:3000/movie_path/2
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDg1Mjc1Nzh9.ZMzn55LvVuRUDaxlg2q9_8GMAqPSuYlkXk_f9guVkEs
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDg2MTk2NDl9.kJBrre-OxTDdMvUcQrfh65dV3rGwmDwBtIAf3t8uYqI
 
 ### movie update
 PATCH http://localhost:3000/movie_path/10
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDg1Mjc1Nzh9.ZMzn55LvVuRUDaxlg2q9_8GMAqPSuYlkXk_f9guVkEs
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDg2MTk2NDl9.kJBrre-OxTDdMvUcQrfh65dV3rGwmDwBtIAf3t8uYqI
 Content-Type: application/json
 
 {
@@ -72,7 +72,7 @@ Content-Type: application/json
 
 ### movie destroy
 DELETE http://localhost:3000/movie_path/5
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDg1Mjc1Nzh9.ZMzn55LvVuRUDaxlg2q9_8GMAqPSuYlkXk_f9guVkEs
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NDg2MTk2NDl9.kJBrre-OxTDdMvUcQrfh65dV3rGwmDwBtIAf3t8uYqI
 
 
 
@@ -94,6 +94,6 @@ POST http://localhost:3000/sessions.json
 Content-Type: application/json
 
 {
-  "email": "katie@email.com",
+  "email": "jeff@email.com",
   "password": "password"
 }
